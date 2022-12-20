@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://varea.top/"
-title = "V-area"
+title = "无声黑白"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -276,7 +276,7 @@ siteBrandSVGFill = "#fff"
 # 如果否，则会使用你的站点标题作为默认值，并
 # 以文字的形式显示，下方可配置字号和字色。字
 # 体请到底部的字体部分配置。单位：em。
-siteBrandFontSize = 1
+siteBrandFontSize = 2
 siteBrandFontColor = "var(--color-contrast-high)"
 
 
@@ -292,7 +292,7 @@ displayMenuInHome = true
 # 说明：对弹性布局的顶栏无效
 
 # 是否按文章分区高亮当前菜单项
-activeInSection = false
+activeInSection = true
 # 说明：如果开启，那么当某一文章的分区名是某
 #      一菜单项中的 `url` 时，该文章页面中
 #      的该菜单项也会被高亮
@@ -311,7 +311,7 @@ homeLayout = "poetry"
 
 ## 「诗意人生」
 # 诗句，支持 Markdown
-homePoetry = ['123']
+homePoetry = ['你心中的海', '&', '马尔代夫？']
 # 底部链接的内间距，单位：em
 homeLinksPadding = 1
 
@@ -320,8 +320,8 @@ homePoster = ""
 homeVideoWebm = ""
 homeVideoMp4 = ""
 homeLogo = ""
-homeLogoLink = ""
-homeTitle = ""
+homeLogoLink = "/home/"
+homeTitle = "无声黑白"
 homeMotto = ""
 homeDescription = ""
 homeKeywords = ""
@@ -1103,7 +1103,7 @@ displayPostGitInfo = false
 #      的优先级高于此处
 
 # 仓库地址
-repoURL = ""
+repoURL = "https://github.com/tr1gv0n/personal-site"
 # 编辑地址
 repoEditURL = ""
 
@@ -1136,10 +1136,10 @@ editText = "Edit Me?"
 # 文章分享
 
 # 是否开启
-enablePostShare = true
+enablePostShare = false
 
 # 是否显示（全局设置）
-displayPostShare = true
+displayPostShare = false
 # 说明：文章的 Front Matter 中的 `share`
 #      的优先级高于此处
 
@@ -1147,14 +1147,14 @@ displayShareOnText = false
 
 shareOnTwitter = true
 shareOnFacebook = true
-shareOnLinkedIn = true
+shareOnLinkedIn = false
 shareOnTelegram = true
 shareOnWeibo = true
 shareOnDouban = true
 shareOnQQ = true
 shareOnQzone = true
 
-shareViaQRCode = true
+shareViaQRCode = false
 
 
 ######################################
@@ -1196,10 +1196,10 @@ postTagsIcon = "tag"
 #      的是一篇更旧的文章。
 
 # 是否开启
-enablePostNav = true
+enablePostNav = false
 
 # 是否仅限于相同的文章分区
-postNavInSection = true
+postNavInSection = false
 
 
 ######################################
@@ -1207,13 +1207,14 @@ postNavInSection = true
 
 # 是否开启
 enableMinimalFooter = false
-enableVerticalBarStructure = false
+
+enableVerticalBarStructure = true
 # 说明：如果开启此项，显示在右边的部类或分区
 #      将会包含全部的第一级部类或分区，并且
 #      以竖线（|）分隔开来。
 
 # 是否开启关于页面的极简页脚
-enableAboutPageMinimalFooter = false
+enableAboutPageMinimalFooter = true
 
 
 ######################################
@@ -1262,10 +1263,10 @@ iconColor = "#f06292"
 iconAnimation = true
 
 # 是否显示 Hugo 和 MemE 的链接
-displayPoweredBy = true
+displayPoweredBy = false
 
 # 是否显示站点的版权信息
-displaySiteCopyright = true
+displaySiteCopyright = false
 
 # 自定义页脚（支持 Markdown）
 customFooter = ""
@@ -1280,7 +1281,7 @@ busuanziSitePVIcon = "eye"
 #      https://busuanzi.ibruce.info/
 
 # 社交链接
-enableSocials = true
+enableSocials = false
 # 说明：见 data/Socials.toml
 
 
@@ -1323,7 +1324,7 @@ enableCopyAutoHide = true
 # 说明：仅对 MemE 生成的 CSS 和 JS 有效
 
 # 是否开启文件指纹
-enableFingerprint = true
+enableFingerprint = false
 
 # 是否开启子资源完整性验证
 enableSRI = false
