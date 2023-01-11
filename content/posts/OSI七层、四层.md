@@ -17,3 +17,6 @@ categories: ["网络模型"]
 
 
 
+经典图：
+
+![img](https://s2.loli.net/2023/01/11/R5OL6shqSJnYPEw.png)
